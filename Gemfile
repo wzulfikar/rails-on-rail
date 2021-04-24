@@ -5,6 +5,8 @@ ruby '3.0.1'
 
 gem 'dotenv-rails', groups: [:development, :test]
 
+gem 'rexml', '~> 3.2', '>= 3.2.4'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.1.1'
 # Use postgresql as the database for Active Record
